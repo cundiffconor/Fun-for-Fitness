@@ -1,0 +1,73 @@
+html {
+  background-color: orange;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: 15px;
+  max-width: 300px;
+  max-height: 175px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+p {
+  font-size: 1em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: orange;
+}
+
+h3 {
+  color: white;
+}
